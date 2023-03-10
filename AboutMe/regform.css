@@ -1,0 +1,110 @@
+@import './style.css';
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: var(--dark);
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+  
+.container-one {
+    padding: 0 10px;
+    margin: 0 190px;
+}
+
+nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+nav .left a:hover{
+    color: var(--primary);
+}
+
+nav .right .btn-secondary {
+    color: var(--dark);
+}
+
+nav .right .btn-secondary:hover{
+    color: var(--light)
+}
+
+nav {
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+nav a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+nav .branding {
+    margin-right: 3rem;
+}
+
+.container {
+    background-color:  var(--pure);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+  
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+  
+.form {
+    padding: 30px 40px;
+}
+  
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+  
+.form-control label {
+    color: var(--ternart);
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-control input {
+    border: 2px solid var(--light);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+  
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+  
+  
+  
+.form button {
+    cursor: pointer;
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    color: var(--pure);
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./regform.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container-one">
+        <nav class="flex items-center justify-between">
+            <div class="left flex items-center">
+                <div class="branding">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div>
+                    <a href="index.html">About Me</a>
+                    <a href="contactme.html">Contact Me</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="regform.html" class="btn btn-primary">Sign Up</a>
+                <a href="login.html" class="btn btn-secondary">Log In</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Login</h2>
+
+            <div class="form-control">
+            <label for="username">Username or Email</label>
+            <input type="text" id="username" placeholder="Enter username" required/>
+            </div>
+
+            <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required/>
+            </div>
+
+
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

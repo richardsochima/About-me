@@ -1,0 +1,172 @@
+@import './utilities.css';
+@import './svg.css';
+
+:root {
+    --primary: #64B6EC;
+    --dark: #161616;
+    --pure: #fff;
+    --ternart: #898989;
+    --light: #F2F2F2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    /* display: block; */
+    width: 90%;
+    height: 90%;
+    border-radius: 1px;
+}
+
+.img2 {
+    margin-top: -70px;
+    width: 500px;
+    height: 700px;
+}
+
+header {
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 77%, 0 100%);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+
+header nav {
+    padding: 1rem 0;
+}
+
+header nav .branding {
+    margin-right: 3rem;
+}
+
+.hero {
+    padding: 3rem 0;
+}
+
+.hero .right {
+    color: var(--pure);
+    width: auto;
+    margin-top: -200px;
+
+}
+
+.hero .right h5 {
+    font-size: 20px;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.hero .right h1 {
+    font-size:40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.hero .right p {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.hero .right a {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.hero .right a:hover {
+    background: var(--primary);
+    color: var(--pure);
+    border: 2px solid transparent;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+section .container {
+    width: 1280px;
+}
+
+section img {
+    height: 450px;
+    border: none;
+}
+
+section h1 {
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+section p{
+    margin-bottom: 1rem;
+}
+
+section span {
+    color: var(--primary);
+}
+
+section h3 {
+    font-size: x-large;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+
+footer {
+    display: grid;
+    background-color: var(--dark);
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+footer small {
+    color: var(--ternart);
+    margin-top: 10px;
+}
+
+footer .imagek img {
+    width: 250px;
+    justify-content: center;
+    margin: 15px;
+}
+
+.socials {
+    margin-bottom: 30px;
+}

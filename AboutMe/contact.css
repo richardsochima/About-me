@@ -1,0 +1,94 @@
+@import "./style.css";
+
+body {font-family: 'Poppins', sans-serif;}
+* {
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: var(--dark);
+    margin: 0 auto;
+    color: var(--light);
+}
+
+:root {
+    --primary: #64B6EC;
+    --dark: #161616;
+    --pure: #fff;
+    --ternart: #898989;
+    --light: #F2F2F2;
+}
+
+nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+nav .left a:hover{
+    color: var(--primary);
+}
+
+nav .right .btn-secondary {
+    color: var(--dark);
+}
+
+nav .right .btn-secondary:hover{
+    color: var(--light)
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+nav a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+nav .branding {
+    margin-right: 3rem;
+}
+
+.name {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.p-tag {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--ternart);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: var(--primary);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: var(--pure);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 5px;
+}
